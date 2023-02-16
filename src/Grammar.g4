@@ -1,5 +1,6 @@
 grammar Grammar;
 
+
 programa: estrutura * EOF;
 estrutura: declaracao_funcao
         | leitura
